@@ -1,0 +1,144 @@
+{
+  "chargingStations": [
+    {
+      "id": 1,
+      "name": "City Charging Station",
+      "image": "https://cloudfront-us-east-1.images.arcpublishing.com/ajc/6F5M2U6LTTR34ZC73PWVVBHL2U.jpg",
+      "location": {
+        "latitude": 35.5874513,
+        "longitude": -80.8729766
+      },
+      "address": "125 Center Square Dr, Mooresville",
+      "connectorType": "Type 2",
+      "connectorCount": 4,
+      "status": "Available",
+      "powerLevel": "Fast Charger"
+    },
+    {
+      "id": 2,
+      "name": "Suburb Charging Station 1",
+      "image": "https://deltaelectronicsindia.com/wp-content/uploads/2020/02/ev-1.png",
+      "location": {
+        "latitude": 37.3541,
+        "longitude": -121.9552
+      },
+      "address": "456 Elm Street, Suburbia",
+      "connectorType": "CHAdeMO",
+      "connectorCount": 2,
+      "status": "Occupied",
+      "powerLevel": "Rapid Charger"
+    },
+    {
+      "id": 3,
+      "name": "Downtown Charging Hub",
+      "image": "https://d382rz2cea0pah.cloudfront.net/wp-content/uploads/2023/06/Untitled-design-2023-06-21T142313.086.jpg",
+      "location": {
+        "latitude": 37.7836,
+        "longitude": -122.4089
+      },
+      "address": "789 Downtown Avenue, Metropolis",
+      "connectorType": "CCS",
+      "connectorCount": 6,
+      "status": "Available",
+      "powerLevel": "Fast Charger"
+    },
+    {
+      "id": 4,
+      "name": "Highway Rest Stop Charging",
+      "image": "https://helios-i.mashable.com/imagery/articles/02KX264hdJ1HfRVcEjjHm49/hero-image.fill.size_1248x702.v1664392691.jpg",
+      "location": {
+        "latitude": 38.0159,
+        "longitude": -122.5397
+      },
+      "address": "Highway 101, Rest Stop Area",
+      "connectorType": "Tesla Supercharger",
+      "connectorCount": 10,
+      "status": "Available",
+      "powerLevel": "Supercharger"
+    },
+    {
+      "id": 5,
+      "name": "Tech Park Charging Station",
+      "image": "https://images.wsj.net/im-610256?width=1280&size=1.33333333",
+      "location": {
+        "latitude": 37.4236,
+        "longitude": -122.0910
+      },
+      "address": "Tech Park Drive, Silicon Valley",
+      "connectorType": "Type 2",
+      "connectorCount": 8,
+      "status": "Occupied",
+      "powerLevel": "Fast Charger"
+    },
+    {
+      "id": 6,
+      "name": "Green Meadows Charging Point",
+      "image": "https://www.jadelearning.com/wp-content/uploads/2023/09/iStock-1564615208.jpg",
+      "location": {
+        "latitude": 36.7783,
+        "longitude": -119.4179
+      },
+      "address": "Green Street, Meadows Town",
+      "connectorType": "CHAdeMO",
+      "connectorCount": 5,
+      "status": "Available",
+      "powerLevel": "Rapid Charger"
+    },
+    {
+      "id": 7,
+      "name": "Coastal View Charging Spot",
+      "image": "https://images.wsj.net/im-662396?width=1280&size=1",
+      "location": {
+        "latitude": 34.0522,
+        "longitude": -118.2437
+      },
+      "address": "Coastal Highway, Seaside Village",
+      "connectorType": "CCS",
+      "connectorCount": 3,
+      "status": "Occupied",
+      "powerLevel": "Fast Charger"
+    },
+    {
+      "id": 8,
+      "name": "Urban Center EV Station",
+      "image": "https://media.istockphoto.com/id/1221447606/photo/charging-station.jpg?s=612x612&w=0&k=20&c=5Z1MVyuZIFR3f0ca51a3n3ZvFUt7P1rAAU8dP_TtVBM=",
+      "location": {
+        "latitude": 40.7128,
+        "longitude": -74.0060
+      },
+      "address": "Urban Street, City Central",
+      "connectorType": "Tesla Supercharger",
+      "connectorCount": 12,
+      "status": "Available",
+      "powerLevel": "Supercharger"
+    },
+    {
+      "id": 9,
+      "name": "Mountain View Charging Plaza",
+      "image": "https://news.motability.co.uk/wp-content/uploads/2022/08/electric-charging-station-with-many-electric-chargers-and-a-parking-lot-on-a-sunny-day.-1140x618.jpeg",
+      "location": {
+        "latitude": 37.3861,
+        "longitude": -122.0838
+      },
+      "address": "Mountain Road, Summit Town",
+      "connectorType": "Type 2",
+      "connectorCount": 6,
+      "status": "Occupied",
+      "powerLevel": "Fast Charger"
+    },
+    {
+      "id": 10,
+      "name": "City Center Charging Hub",
+      "image": "https://img.rolandberger.com/content_assets/content_images/captions/Roland_Berger_427_EV_Charging_Index_IT_image_caption_none.png",
+      "location": {
+        "latitude": 41.8781,
+        "longitude": -87.6298
+      },
+      "address": "Main Street, Downtown City",
+      "connectorType": "CHAdeMO",
+      "connectorCount": 4,
+      "status": "Available",
+      "powerLevel": "Rapid Charger"
+    }
+  ]
+}
