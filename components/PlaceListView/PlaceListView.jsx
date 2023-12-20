@@ -54,18 +54,22 @@ export default function PlaceListView() {
   };
 
   const getFav = async () => {
-    setFavList([]);
-    const q = query(
-      collection(db, "ev-fav-place"),
-      where("email", "==", user?.primaryEmailAddress?.emailAddress)
-    );
+    try {
+      const q = query(
+        collection(db, "ev-fav-place"),
+        where("email", "==", user?.primaryEmailAddress?.emailAddress)
+      );
 
-    const querySnapshot = await getDocs(q);
-    const updatedFavList = [];
-    querySnapshot.forEach((doc) => {
-      updatedFavList.push(doc.data());
-    });
-    setFavList(updatedFavList);
+      const querySnapshot = await getDocs(q);
+      const updatedFavList = [];
+      querySnapshot.forEach((doc) => {
+        updatedFavList.push(doc.data());
+      });
+      console.log("Fav List Updated:", updatedFavList);
+      setFavList(updatedFavList);
+    } catch (error) {
+      console.error("Error fetching favorites:", error);
+    }
   };
 
   const isFav = (place) => {
@@ -100,7 +104,7 @@ export default function PlaceListView() {
       android: `geo:${place?.location?.latitude},${place?.location?.longitude}?q=${place?.address}`,
     });
 
-    console.log(url);
+    // console.log(url);
 
     Linking.openURL(url).catch(() => {
       showToast("Unable to open maps app");
