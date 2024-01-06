@@ -15,17 +15,17 @@ Development of an innovative Electric Vehicle Charging Station Finder app, empow
 ## Demonstration -->
 
 <p align="left">
-  <img src='./assets/images/appImg/image1.jpg' alt='Intro Screen' width="50%" height="50%">
+  <img src='./assets/images/AppImg/image1.jpg' alt='Intro Screen' width="50%" height="50%">
   <br />
-  <img src='./assets/images/appImg/image2.jpg' alt='Intro Screen' width="50%" height="50%">
+  <img src='./assets/images/AppImg/image2.jpg' alt='Intro Screen' width="50%" height="50%">
   <br />
-  <img src='./assets/images/appImg/image3.jpg' alt='Intro Screen' width="50%" height="50%">
+  <img src='./assets/images/AppImg/image3.jpg' alt='Intro Screen' width="50%" height="50%">
   <br />
-  <img src='./assets/images/appImg/image4.jpg' alt='Intro Screen' width="50%" height="50%">
+  <img src='./assets/images/AppImg/image4.jpg' alt='Intro Screen' width="50%" height="50%">
   <br />
-  <img src='./assets/images/appImg/image5.jpg' alt='Intro Screen' width="50%" height="50%">
+  <img src='./assets/images/AppImg/image5.jpg' alt='Intro Screen' width="50%" height="50%">
   <br />
-  <img src='./assets/images/appImg/image6.jpg' alt='Intro Screen' width="50%" height="50%">
+  <img src='./assets/images/AppImg/image6.jpg' alt='Intro Screen' width="50%" height="50%">
   <br />
 </p>
 
